@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Float, DateTime, Integer
+from sqlalchemy import Column, String, Float, DateTime, Integer, JSON, Text
 from datetime import datetime
 from app.database.session import Base
 
@@ -16,3 +16,14 @@ class Transaction(Base):
     # NEW
     anomaly_score = Column(Float, nullable=True)
     is_anomaly = Column(Integer, nullable=True)
+
+class AgentDecision(Base):
+    __tablename__ = "agent_decisions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    transaction_id = Column(String, index=True)
+    risk_level = Column(String)
+    summary = Column(Text)
+    signals = Column(JSON)
+    recommended_action = Column(String)
+    created_at = Column(DateTime, default=datetime.utcnow)

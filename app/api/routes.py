@@ -5,6 +5,8 @@ from app.database.session import SessionLocal
 from app.database.models import Transaction
 from app.api.schemas import TransactionIn
 from app.ml.forecasting import prepare_time_series, forecast_spend
+from app.ml.explainability import get_shap_for_transaction
+
 
 router = APIRouter()
 
@@ -123,6 +125,11 @@ def forecast_department_spend(
 
     try:
         series = prepare_time_series(df, department)
+        if series is None:
+            raise HTTPException(
+                status_code=400,
+                detail=f"No data available for department: {department}"
+            )
         forecast = forecast_spend(series, days)
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
@@ -135,4 +142,53 @@ def forecast_department_spend(
             for date, value in forecast.items()
         }
     }
+
+from app.agent.investigator import investigate
+from app.database.models import AgentDecision
+
+
+@router.post("/agent/investigate/{transaction_id}")
+def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
+    txn = db.query(Transaction).filter(
+        Transaction.transaction_id == transaction_id
+    ).first()
+
+    if not txn:
+        raise HTTPException(404, "Transaction not found")
+
+    shap_values = get_shap_for_transaction(transaction_id)
+
+    result = investigate(
+        txn={
+            "transaction_id": txn.transaction_id,
+            "amount": txn.amount,
+            "vendor": txn.vendor,
+            "department": txn.department,
+            "anomaly_score": txn.anomaly_score,
+            "is_anomaly": txn.is_anomaly
+        },
+        shap=shap_values
+    )
+    decision = AgentDecision(
+        transaction_id=transaction_id,
+        risk_level=result["risk_level"],
+        summary=result["summary"],
+        signals=result["signals"],
+        recommended_action=result["recommended_action"]
+    )
+
+    db.add(decision)
+    db.commit()
+    return result
+    
+
+@router.get("/agent/decisions/{transaction_id}")
+def get_agent_decisions(transaction_id: str, db: Session = Depends(get_db)):
+    decisions = db.query(AgentDecision).filter(
+        AgentDecision.transaction_id == transaction_id
+    ).all()
+
+    return decisions
+
+
 
