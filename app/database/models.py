@@ -27,4 +27,11 @@ class AgentDecision(Base):
     action_taken = Column(String)
     signals = Column(JSON)
     recommended_action = Column(String)
+    model_version = Column(String)
+    policy_version = Column(String)
+    llm_model = Column(String)
+    feedback = Column(String)        # correct | false_positive | missed
+    feedback_notes = Column(Text)
+    feedback_at = Column(DateTime)
     created_at = Column(DateTime, default=datetime.utcnow)
+    

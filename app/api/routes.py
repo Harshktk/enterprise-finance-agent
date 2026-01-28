@@ -9,6 +9,7 @@ from app.ml.explainability import get_shap_for_transaction
 from app.agent.risk import map_risk_level
 from app.agent.policy import decide_action,apply_policy 
 
+
 router = APIRouter()
 
 def get_db():
@@ -234,7 +235,10 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
         },
         recommended_action=result["recommended_action"],
         action_taken=action,
-        policy_action=policy_action
+        policy_action=policy_action,
+        model= "anomaly_v1",
+        policy= "policy_v1",
+        llm= "mistral"
     )
     
 
@@ -330,4 +334,40 @@ def auto_monitor(db: Session = Depends(get_db)):
 def get_actions(db: Session = Depends(get_db)):
     return db.query(AgentDecision).all()
 
+@router.post("/agent/feedback/{transaction_id}")
+def submit_feedback(
+    transaction_id: str,
+    payload: dict,
+    db: Session = Depends(get_db)
+):
+    decision = db.query(AgentDecision).filter(
+        AgentDecision.transaction_id == transaction_id
+    ).first()
 
+    if not decision:
+        raise HTTPException(404, "Decision not found")
+
+    decision.feedback = payload["verdict"]   # correct / false_positive / missed
+    decision.feedback_notes = payload.get("notes")
+    decision.feedback_at = datetime.utcnow()
+
+    db.commit()
+
+    return {"status": "feedback recorded"}
+
+@router.post("/ml/retrain")
+def retrain_from_feedback(db: Session = Depends(get_db)):
+    decisions = db.query(AgentDecision).filter(
+        AgentDecision.feedback.isnot(None)
+    ).all()
+
+    if not decisions:
+        return {"status": "no feedback yet"}
+
+    summary = feedback_summary(decisions)
+
+    return {
+        "status": "feedback reviewed",
+        "summary": summary,
+        "note": "Threshold retraining pending"
+    }
