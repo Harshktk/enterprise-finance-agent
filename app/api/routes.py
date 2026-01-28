@@ -6,6 +6,7 @@ from app.database.models import Transaction
 from app.api.schemas import TransactionIn
 from app.ml.forecasting import prepare_time_series, forecast_spend
 from app.ml.explainability import get_shap_for_transaction
+from app.agent.risk import map_risk_level
 
 
 router = APIRouter()
@@ -156,8 +157,52 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
     if not txn:
         raise HTTPException(404, "Transaction not found")
 
-    shap_values = get_shap_for_transaction(transaction_id)
+    # Return cached decision if already investigated
+    existing = db.query(AgentDecision).filter(
+        AgentDecision.transaction_id == transaction_id
+    ).first()
 
+    if existing:
+        return {
+            "risk_level": existing.risk_level,
+            "summary": existing.summary,
+            "signals": existing.signals,
+            "recommended_action": existing.recommended_action
+        }
+
+    # Deterministic risk
+    risk_level = map_risk_level(float(txn.anomaly_score))
+
+    # SHAP explainability
+    shap_values = get_shap_for_transaction(
+        transaction_id,
+        detector.model,
+        detector.feature_df
+    )
+
+    shap_signals = [
+        {"feature": k, "impact": v}
+        for k, v in shap_values.items()
+    ]
+
+    # Agent memory (last 5 decisions)
+    recent_decisions = (
+        db.query(AgentDecision)
+        .order_by(AgentDecision.created_at.desc())
+        .limit(5)
+        .all()
+    )
+
+    memory = [
+        {
+            "transaction_id": d.transaction_id,
+            "risk_level": d.risk_level,
+            "summary": d.summary
+        }
+        for d in recent_decisions
+    ]
+
+    # LLM investigation
     result = investigate(
         txn={
             "transaction_id": txn.transaction_id,
@@ -167,19 +212,32 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
             "anomaly_score": txn.anomaly_score,
             "is_anomaly": txn.is_anomaly
         },
-        shap=shap_values
+        shap=shap_values,
+        memory=memory
     )
+
+    # Persist decision
     decision = AgentDecision(
         transaction_id=transaction_id,
-        risk_level=result["risk_level"],
-        summary=result["summary"],
-        signals=result["signals"],
+        risk_level=risk_level,          # deterministic
+        summary=result["summary"],      # LLM
+        signals={
+            "shap": shap_signals,       # explainability
+            "llm": result["signals"]    # semantic reasoning
+        },
         recommended_action=result["recommended_action"]
     )
 
     db.add(decision)
     db.commit()
-    return result
+
+    return {
+        "risk_level": risk_level,
+        "summary": result["summary"],
+        "signals": decision.signals,
+        "recommended_action": result["recommended_action"]
+    }
+
     
 
 @router.get("/agent/decisions/{transaction_id}")
