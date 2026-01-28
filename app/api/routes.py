@@ -7,7 +7,7 @@ from app.api.schemas import TransactionIn
 from app.ml.forecasting import prepare_time_series, forecast_spend
 from app.ml.explainability import get_shap_for_transaction
 from app.agent.risk import map_risk_level
-
+from app.agent.policy import decide_action,apply_policy 
 
 router = APIRouter()
 
@@ -167,7 +167,9 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
             "risk_level": existing.risk_level,
             "summary": existing.summary,
             "signals": existing.signals,
-            "recommended_action": existing.recommended_action
+            "recommended_action": existing.recommended_action,
+            "policy_action": existing.policy_action,
+            "action_taken": existing.action_taken
         }
 
     # Deterministic risk
@@ -215,7 +217,12 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
         shap=shap_values,
         memory=memory
     )
+    policy_action = apply_policy(risk_level)
 
+    action = decide_action(
+        risk_level=risk_level,
+        anomaly_score=float(txn.anomaly_score)
+    )
     # Persist decision
     decision = AgentDecision(
         transaction_id=transaction_id,
@@ -225,8 +232,11 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
             "shap": shap_signals,       # explainability
             "llm": result["signals"]    # semantic reasoning
         },
-        recommended_action=result["recommended_action"]
+        recommended_action=result["recommended_action"],
+        action_taken=action,
+        policy_action=policy_action
     )
+    
 
     db.add(decision)
     db.commit()
@@ -235,7 +245,8 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
         "risk_level": risk_level,
         "summary": result["summary"],
         "signals": decision.signals,
-        "recommended_action": result["recommended_action"]
+        "recommended_action": result["recommended_action"],
+        "policy_action": policy_action
     }
 
     
@@ -248,5 +259,75 @@ def get_agent_decisions(transaction_id: str, db: Session = Depends(get_db)):
 
     return decisions
 
+@router.post("/agent/auto-monitor")
+def auto_monitor(db: Session = Depends(get_db)):
+    txns = (
+        db.query(Transaction)
+        .filter(Transaction.is_anomaly == 1)
+        .all()
+    )
+
+    results = []
+
+    for txn in txns:
+        exists = db.query(AgentDecision).filter(
+            AgentDecision.transaction_id == txn.transaction_id
+        ).first()
+        if exists:
+            continue
+
+        shap_values = get_shap_for_transaction(
+            txn.transaction_id,
+            detector.model,
+            detector.feature_df
+        )
+
+        memory = (
+            db.query(AgentDecision)
+            .order_by(AgentDecision.created_at.desc())
+            .limit(5)
+            .all()
+        )
+
+        result = investigate(
+            txn={
+                "transaction_id": txn.transaction_id,
+                "amount": txn.amount,
+                "vendor": txn.vendor,
+                "department": txn.department,
+                "anomaly_score": txn.anomaly_score,
+                "is_anomaly": txn.is_anomaly
+            },
+            shap=shap_values,
+            memory=[
+                {
+                    "transaction_id": d.transaction_id,
+                    "risk_level": d.risk_level,
+                    "summary": d.summary
+                } for d in memory
+            ]
+        )
+        action = decide_action(
+            risk_level=risk_level,
+            anomaly_score=float(txn.anomaly_score)
+        )
+        decision = AgentDecision(
+            transaction_id=txn.transaction_id,
+            risk_level=map_risk_level(float(txn.anomaly_score)),
+            summary=result["summary"],
+            signals=result["signals"],
+            recommended_action=result["recommended_action"],
+            action_taken=action
+        )
+
+        db.add(decision)
+        results.append(txn.transaction_id)
+
+    db.commit()
+    return {"processed": results}
+
+@router.get("/agent/actions")
+def get_actions(db: Session = Depends(get_db)):
+    return db.query(AgentDecision).all()
 
 

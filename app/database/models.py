@@ -24,6 +24,7 @@ class AgentDecision(Base):
     transaction_id = Column(String, index=True)
     risk_level = Column(String)
     summary = Column(Text)
+    action_taken = Column(String)
     signals = Column(JSON)
     recommended_action = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
