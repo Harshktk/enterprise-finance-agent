@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
+from datetime import datetime
 from app.database.session import SessionLocal
 from app.database.models import Transaction
 from app.api.schemas import TransactionIn
@@ -180,7 +181,7 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
     shap_values = get_shap_for_transaction(
         transaction_id,
         detector.model,
-        detector.feature_df
+        detector.original_df
     )
 
     shap_signals = [
@@ -236,9 +237,9 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
         recommended_action=result["recommended_action"],
         action_taken=action,
         policy_action=policy_action,
-        model= "anomaly_v1",
-        policy= "policy_v1",
-        llm= "mistral"
+        model_version="anomaly_v1",
+        policy_version="policy_v1",
+        llm_model="mistral"
     )
     
 
@@ -283,7 +284,7 @@ def auto_monitor(db: Session = Depends(get_db)):
         shap_values = get_shap_for_transaction(
             txn.transaction_id,
             detector.model,
-            detector.feature_df
+            detector.original_df
         )
 
         memory = (
@@ -311,17 +312,25 @@ def auto_monitor(db: Session = Depends(get_db)):
                 } for d in memory
             ]
         )
+        
+        risk_level = map_risk_level(float(txn.anomaly_score))
+        policy_action = apply_policy(risk_level)
         action = decide_action(
             risk_level=risk_level,
             anomaly_score=float(txn.anomaly_score)
         )
+        
         decision = AgentDecision(
             transaction_id=txn.transaction_id,
-            risk_level=map_risk_level(float(txn.anomaly_score)),
+            risk_level=risk_level,
             summary=result["summary"],
             signals=result["signals"],
             recommended_action=result["recommended_action"],
-            action_taken=action
+            action_taken=action,
+            policy_action=policy_action,
+            model_version="anomaly_v1",
+            policy_version="policy_v1",
+            llm_model="mistral"
         )
 
         db.add(decision)
@@ -364,7 +373,13 @@ def retrain_from_feedback(db: Session = Depends(get_db)):
     if not decisions:
         return {"status": "no feedback yet"}
 
-    summary = feedback_summary(decisions)
+    # Simple feedback summary
+    summary = {
+        "total": len(decisions),
+        "correct": sum(1 for d in decisions if d.feedback == "correct"),
+        "false_positive": sum(1 for d in decisions if d.feedback == "false_positive"),
+        "missed": sum(1 for d in decisions if d.feedback == "missed")
+    }
 
     return {
         "status": "feedback reviewed",

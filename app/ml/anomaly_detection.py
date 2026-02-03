@@ -12,11 +12,15 @@ class AnomalyDetector:
         )
         self.explainer = None
         self.feature_names = None
+        self.feature_df = None
+        self.original_df = None
         self.is_trained = False
 
     def train(self, df: pd.DataFrame):
         features = build_features(df)
         self.feature_names = features.columns.tolist()
+        self.feature_df = features  # Store feature dataframe
+        self.original_df = df.copy()  # Store original dataframe with transaction_id
 
         self.model.fit(features)
 

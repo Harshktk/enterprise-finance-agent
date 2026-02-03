@@ -1,0 +1,4502 @@
+[
+  {
+    "transaction_id": "TXN0061",
+    "timestamp": "2024-02-06T10:08:00",
+    "amount": 718.03,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0207",
+    "timestamp": "2024-02-05T15:53:00",
+    "amount": 2686.27,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0077",
+    "timestamp": "2024-02-06T14:58:00",
+    "amount": 148.41,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0092",
+    "timestamp": "2024-02-02T09:38:00",
+    "amount": 14322.45,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0033",
+    "timestamp": "2024-02-09T17:51:00",
+    "amount": 23533.48,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0406",
+    "timestamp": "2024-02-07T16:18:00",
+    "amount": 8782.79,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0434",
+    "timestamp": "2024-02-09T08:01:00",
+    "amount": 56886.48,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0175",
+    "timestamp": "2024-02-02T10:57:00",
+    "amount": 1496.19,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0320",
+    "timestamp": "2024-02-01T11:41:00",
+    "amount": 16959.97,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0346",
+    "timestamp": "2024-02-08T08:37:00",
+    "amount": 2745.07,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0166",
+    "timestamp": "2024-02-03T12:34:00",
+    "amount": 934.39,
+    "category": "Travel",
+    "vendor": "Hilton Hotels",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0381",
+    "timestamp": "2024-02-05T11:03:00",
+    "amount": 557.59,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0325",
+    "timestamp": "2024-02-06T18:00:00",
+    "amount": 2348.37,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0150",
+    "timestamp": "2024-02-02T09:48:00",
+    "amount": 39595.94,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0066",
+    "timestamp": "2024-02-07T10:19:00",
+    "amount": 1637.6,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0194",
+    "timestamp": "2024-02-07T14:08:00",
+    "amount": 10327.73,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0355",
+    "timestamp": "2024-02-08T10:23:00",
+    "amount": 2782.59,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0109",
+    "timestamp": "2024-02-06T15:22:00",
+    "amount": 247.49,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0059",
+    "timestamp": "2024-02-10T08:04:00",
+    "amount": 3643.31,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0478",
+    "timestamp": "2024-02-07T11:00:00",
+    "amount": 210742.71,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0428",
+    "timestamp": "2024-02-08T14:31:00",
+    "amount": 439.16,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0253",
+    "timestamp": "2024-02-05T09:06:00",
+    "amount": 14758.31,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Legal",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0273",
+    "timestamp": "2024-02-06T18:41:00",
+    "amount": 229.24,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0240",
+    "timestamp": "2024-02-05T10:33:00",
+    "amount": 265.93,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0268",
+    "timestamp": "2024-02-11T14:50:00",
+    "amount": 1005.63,
+    "category": "Travel",
+    "vendor": "United Airlines",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0307",
+    "timestamp": "2024-02-04T16:38:00",
+    "amount": 1133.4,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0122",
+    "timestamp": "2024-02-02T14:37:00",
+    "amount": 2487.19,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0037",
+    "timestamp": "2024-02-09T14:31:00",
+    "amount": 3448.98,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0284",
+    "timestamp": "2024-02-05T10:53:00",
+    "amount": 16479.26,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0193",
+    "timestamp": "2024-02-08T08:18:00",
+    "amount": 135.91,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0260",
+    "timestamp": "2024-02-04T13:14:00",
+    "amount": 577.17,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0350",
+    "timestamp": "2024-02-02T13:29:00",
+    "amount": 11244.78,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0418",
+    "timestamp": "2024-02-02T15:42:00",
+    "amount": 2142.19,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0086",
+    "timestamp": "2024-02-03T18:41:00",
+    "amount": 35686.57,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0141",
+    "timestamp": "2024-02-07T10:25:00",
+    "amount": 1193.96,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0495",
+    "timestamp": "2024-02-07T13:00:00",
+    "amount": 103705.91,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0328",
+    "timestamp": "2024-02-01T08:21:00",
+    "amount": 1384.67,
+    "category": "Travel",
+    "vendor": "Hilton Hotels",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0443",
+    "timestamp": "2024-02-09T09:57:00",
+    "amount": 878.18,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0252",
+    "timestamp": "2024-02-06T08:03:00",
+    "amount": 67187.46,
+    "category": "Consulting",
+    "vendor": "Accenture",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0029",
+    "timestamp": "2024-02-06T12:54:00",
+    "amount": 55849.28,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0087",
+    "timestamp": "2024-02-01T13:48:00",
+    "amount": 48282.49,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0465",
+    "timestamp": "2024-02-10T12:00:00",
+    "amount": 66052.8,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0447",
+    "timestamp": "2024-02-03T15:09:00",
+    "amount": 1207.3,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0153",
+    "timestamp": "2024-02-04T12:09:00",
+    "amount": 17117.81,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0173",
+    "timestamp": "2024-02-10T09:47:00",
+    "amount": 35191.34,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "Legal",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0101",
+    "timestamp": "2024-02-11T09:19:00",
+    "amount": 8177.24,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0456",
+    "timestamp": "2024-02-07T23:00:00",
+    "amount": 90962.42,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0009",
+    "timestamp": "2024-02-08T11:49:00",
+    "amount": 228.02,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0161",
+    "timestamp": "2024-02-03T13:35:00",
+    "amount": 20213.87,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0238",
+    "timestamp": "2024-02-05T15:52:00",
+    "amount": 3928.39,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0236",
+    "timestamp": "2024-02-05T18:27:00",
+    "amount": 1853.44,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0075",
+    "timestamp": "2024-02-05T10:41:00",
+    "amount": 18835.44,
+    "category": "Marketing",
+    "vendor": "Marketing Agency Inc",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0234",
+    "timestamp": "2024-02-04T14:07:00",
+    "amount": 75.39,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0500",
+    "timestamp": "2024-02-05T00:00:00",
+    "amount": 90406.61,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0345",
+    "timestamp": "2024-02-04T12:35:00",
+    "amount": 8962.99,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0497",
+    "timestamp": "2024-02-01T12:00:00",
+    "amount": 139182.1,
+    "category": "Consulting",
+    "vendor": "Sketchy Supplier Co",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0336",
+    "timestamp": "2024-02-07T12:48:00",
+    "amount": 57883.58,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0321",
+    "timestamp": "2024-02-07T09:29:00",
+    "amount": 566.42,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0470",
+    "timestamp": "2024-02-04T23:00:00",
+    "amount": 32813.31,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0338",
+    "timestamp": "2024-02-06T12:09:00",
+    "amount": 24627.96,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0479",
+    "timestamp": "2024-02-03T15:00:00",
+    "amount": 149222.32,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0359",
+    "timestamp": "2024-02-08T16:23:00",
+    "amount": 14675.08,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0241",
+    "timestamp": "2024-02-02T08:00:00",
+    "amount": 414.92,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0110",
+    "timestamp": "2024-02-09T15:43:00",
+    "amount": 755.97,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0155",
+    "timestamp": "2024-02-02T09:45:00",
+    "amount": 4546.77,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0360",
+    "timestamp": "2024-02-07T18:45:00",
+    "amount": 2220.37,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0433",
+    "timestamp": "2024-02-07T17:22:00",
+    "amount": 4674.88,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0246",
+    "timestamp": "2024-02-01T09:05:00",
+    "amount": 801.49,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0041",
+    "timestamp": "2024-02-08T09:48:00",
+    "amount": 552.36,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0104",
+    "timestamp": "2024-02-07T12:09:00",
+    "amount": 3429.61,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0310",
+    "timestamp": "2024-02-06T13:14:00",
+    "amount": 19654.7,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0421",
+    "timestamp": "2024-02-10T17:02:00",
+    "amount": 1208.77,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0431",
+    "timestamp": "2024-02-05T10:43:00",
+    "amount": 1816.13,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0402",
+    "timestamp": "2024-02-07T14:01:00",
+    "amount": 18011.45,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "IT",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0397",
+    "timestamp": "2024-02-05T13:52:00",
+    "amount": 61506.14,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0323",
+    "timestamp": "2024-02-10T15:43:00",
+    "amount": 31617.65,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0378",
+    "timestamp": "2024-02-11T10:18:00",
+    "amount": 1402.84,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0058",
+    "timestamp": "2024-02-04T13:24:00",
+    "amount": 4703.86,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0412",
+    "timestamp": "2024-02-03T16:32:00",
+    "amount": 1941.97,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0099",
+    "timestamp": "2024-02-08T08:21:00",
+    "amount": 44417.21,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0414",
+    "timestamp": "2024-02-04T11:24:00",
+    "amount": 1032.12,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0237",
+    "timestamp": "2024-02-07T10:05:00",
+    "amount": 1591.94,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0304",
+    "timestamp": "2024-02-02T14:07:00",
+    "amount": 452.08,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0488",
+    "timestamp": "2024-02-07T12:00:00",
+    "amount": 96041.94,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "HR",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0179",
+    "timestamp": "2024-02-03T13:26:00",
+    "amount": 4603.22,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0287",
+    "timestamp": "2024-02-10T18:44:00",
+    "amount": 2424.42,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0102",
+    "timestamp": "2024-02-08T12:01:00",
+    "amount": 57806.48,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0476",
+    "timestamp": "2024-02-03T15:00:00",
+    "amount": 125600.47,
+    "category": "Equipment",
+    "vendor": "Sketchy Supplier Co",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0201",
+    "timestamp": "2024-02-05T15:39:00",
+    "amount": 1602.55,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0243",
+    "timestamp": "2024-02-09T12:10:00",
+    "amount": 1883.25,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0404",
+    "timestamp": "2024-02-02T11:10:00",
+    "amount": 354.86,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0341",
+    "timestamp": "2024-02-08T13:45:00",
+    "amount": 446.59,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0006",
+    "timestamp": "2024-02-04T10:41:00",
+    "amount": 620.66,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0289",
+    "timestamp": "2024-02-10T11:50:00",
+    "amount": 5007.2,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0316",
+    "timestamp": "2024-02-07T14:09:00",
+    "amount": 858.22,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0012",
+    "timestamp": "2024-02-06T18:17:00",
+    "amount": 44697.15,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0480",
+    "timestamp": "2024-02-05T15:00:00",
+    "amount": 109682.19,
+    "category": "Consulting",
+    "vendor": "Questionable Services",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0271",
+    "timestamp": "2024-02-10T16:36:00",
+    "amount": 434.99,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0127",
+    "timestamp": "2024-02-01T14:42:00",
+    "amount": 468.06,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0440",
+    "timestamp": "2024-02-03T10:42:00",
+    "amount": 6544.72,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0373",
+    "timestamp": "2024-02-09T15:04:00",
+    "amount": 3956.4,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0089",
+    "timestamp": "2024-02-08T16:46:00",
+    "amount": 1162.13,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0362",
+    "timestamp": "2024-02-02T15:10:00",
+    "amount": 2390.55,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0403",
+    "timestamp": "2024-02-06T13:18:00",
+    "amount": 3238.68,
+    "category": "Equipment",
+    "vendor": "Dell Technologies",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0069",
+    "timestamp": "2024-02-09T11:41:00",
+    "amount": 1566.76,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0105",
+    "timestamp": "2024-02-02T09:24:00",
+    "amount": 883.85,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0025",
+    "timestamp": "2024-02-04T16:36:00",
+    "amount": 149.6,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0348",
+    "timestamp": "2024-02-11T16:50:00",
+    "amount": 215.34,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0232",
+    "timestamp": "2024-02-06T17:19:00",
+    "amount": 1662.64,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0324",
+    "timestamp": "2024-02-02T09:39:00",
+    "amount": 3222.96,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0060",
+    "timestamp": "2024-02-04T18:55:00",
+    "amount": 22024.5,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0489",
+    "timestamp": "2024-02-10T04:00:00",
+    "amount": 113683.1,
+    "category": "Consulting",
+    "vendor": "Accenture",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0424",
+    "timestamp": "2024-02-02T15:30:00",
+    "amount": 1856.16,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0225",
+    "timestamp": "2024-02-05T18:43:00",
+    "amount": 1714.24,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0030",
+    "timestamp": "2024-02-03T10:40:00",
+    "amount": 1469.12,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0492",
+    "timestamp": "2024-02-10T11:00:00",
+    "amount": 110958.91,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0148",
+    "timestamp": "2024-02-07T14:29:00",
+    "amount": 2797.69,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0417",
+    "timestamp": "2024-02-10T18:52:00",
+    "amount": 42723.89,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0379",
+    "timestamp": "2024-02-10T12:56:00",
+    "amount": 4188.17,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0204",
+    "timestamp": "2024-02-06T14:45:00",
+    "amount": 635.82,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0020",
+    "timestamp": "2024-02-08T15:50:00",
+    "amount": 1842.5,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0242",
+    "timestamp": "2024-02-05T17:34:00",
+    "amount": 437.78,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0203",
+    "timestamp": "2024-02-01T14:57:00",
+    "amount": 41909.71,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0343",
+    "timestamp": "2024-02-02T08:48:00",
+    "amount": 265.73,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0385",
+    "timestamp": "2024-02-07T11:02:00",
+    "amount": 221.48,
+    "category": "Travel",
+    "vendor": "United Airlines",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0081",
+    "timestamp": "2024-02-06T12:46:00",
+    "amount": 36.09,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0349",
+    "timestamp": "2024-02-02T12:01:00",
+    "amount": 262.07,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0364",
+    "timestamp": "2024-02-01T09:06:00",
+    "amount": 9298.18,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0334",
+    "timestamp": "2024-02-02T15:09:00",
+    "amount": 894.17,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0380",
+    "timestamp": "2024-02-11T18:16:00",
+    "amount": 47143.23,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0258",
+    "timestamp": "2024-02-03T10:17:00",
+    "amount": 444.43,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0021",
+    "timestamp": "2024-02-05T10:20:00",
+    "amount": 39598.37,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0160",
+    "timestamp": "2024-02-09T11:48:00",
+    "amount": 18730.93,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0116",
+    "timestamp": "2024-02-11T08:39:00",
+    "amount": 1824.7,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0347",
+    "timestamp": "2024-02-04T13:58:00",
+    "amount": 29716.52,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0139",
+    "timestamp": "2024-02-09T09:15:00",
+    "amount": 391.06,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0302",
+    "timestamp": "2024-02-02T13:35:00",
+    "amount": 332.93,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0111",
+    "timestamp": "2024-02-10T13:54:00",
+    "amount": 1214.89,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0438",
+    "timestamp": "2024-02-04T17:34:00",
+    "amount": 3115.86,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0195",
+    "timestamp": "2024-02-04T10:56:00",
+    "amount": 418.22,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0174",
+    "timestamp": "2024-02-08T16:46:00",
+    "amount": 40789.34,
+    "category": "Consulting",
+    "vendor": "Accenture",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0312",
+    "timestamp": "2024-02-11T12:08:00",
+    "amount": 5250.24,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0189",
+    "timestamp": "2024-02-06T11:45:00",
+    "amount": 117.27,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0157",
+    "timestamp": "2024-02-09T15:41:00",
+    "amount": 1929.63,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0267",
+    "timestamp": "2024-02-06T15:31:00",
+    "amount": 2776.34,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0481",
+    "timestamp": "2024-02-10T11:00:00",
+    "amount": 230894.92,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0057",
+    "timestamp": "2024-02-09T08:41:00",
+    "amount": 10326.99,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0091",
+    "timestamp": "2024-02-09T16:38:00",
+    "amount": 4657.59,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0407",
+    "timestamp": "2024-02-02T15:34:00",
+    "amount": 11445.88,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Legal",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0065",
+    "timestamp": "2024-02-09T16:11:00",
+    "amount": 49095.72,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0098",
+    "timestamp": "2024-02-06T08:46:00",
+    "amount": 3917.63,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0186",
+    "timestamp": "2024-02-03T08:52:00",
+    "amount": 470.98,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0391",
+    "timestamp": "2024-02-10T14:15:00",
+    "amount": 6417.18,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0394",
+    "timestamp": "2024-02-02T08:14:00",
+    "amount": 1671.56,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0386",
+    "timestamp": "2024-02-05T10:10:00",
+    "amount": 188.06,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0177",
+    "timestamp": "2024-02-03T12:59:00",
+    "amount": 737.62,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0223",
+    "timestamp": "2024-02-04T14:13:00",
+    "amount": 1183.4,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0475",
+    "timestamp": "2024-02-03T13:00:00",
+    "amount": 108655.97,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0473",
+    "timestamp": "2024-02-07T17:00:00",
+    "amount": 113434.42,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0053",
+    "timestamp": "2024-02-02T10:00:00",
+    "amount": 1072.41,
+    "category": "Travel",
+    "vendor": "Hilton Hotels",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0176",
+    "timestamp": "2024-02-03T09:11:00",
+    "amount": 553.46,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0146",
+    "timestamp": "2024-02-03T10:28:00",
+    "amount": 912.07,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0353",
+    "timestamp": "2024-02-05T13:42:00",
+    "amount": 34272.99,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0429",
+    "timestamp": "2024-02-09T15:41:00",
+    "amount": 9205.07,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0261",
+    "timestamp": "2024-02-05T13:13:00",
+    "amount": 966.73,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0071",
+    "timestamp": "2024-02-06T16:28:00",
+    "amount": 1632.63,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0247",
+    "timestamp": "2024-02-06T12:02:00",
+    "amount": 4261.03,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0327",
+    "timestamp": "2024-02-09T16:46:00",
+    "amount": 18061.24,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0028",
+    "timestamp": "2024-02-01T10:22:00",
+    "amount": 2836.16,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0115",
+    "timestamp": "2024-02-07T08:49:00",
+    "amount": 2437.58,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0313",
+    "timestamp": "2024-02-03T13:47:00",
+    "amount": 196.25,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0085",
+    "timestamp": "2024-02-07T11:20:00",
+    "amount": 17371.4,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0055",
+    "timestamp": "2024-02-08T11:19:00",
+    "amount": 1216.33,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0131",
+    "timestamp": "2024-02-01T18:04:00",
+    "amount": 31735.8,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0108",
+    "timestamp": "2024-02-02T17:34:00",
+    "amount": 73.09,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0031",
+    "timestamp": "2024-02-06T16:10:00",
+    "amount": 3635.81,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0410",
+    "timestamp": "2024-02-08T17:02:00",
+    "amount": 159.7,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0436",
+    "timestamp": "2024-02-10T10:03:00",
+    "amount": 73315.36,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0170",
+    "timestamp": "2024-02-09T14:46:00",
+    "amount": 26587.67,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0491",
+    "timestamp": "2024-02-11T23:00:00",
+    "amount": 52172.58,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0263",
+    "timestamp": "2024-02-04T12:08:00",
+    "amount": 555.9,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0442",
+    "timestamp": "2024-02-02T10:59:00",
+    "amount": 485.95,
+    "category": "Travel",
+    "vendor": "United Airlines",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0444",
+    "timestamp": "2024-02-08T16:41:00",
+    "amount": 1089.7,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0070",
+    "timestamp": "2024-02-09T10:33:00",
+    "amount": 1823.12,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0435",
+    "timestamp": "2024-02-03T08:12:00",
+    "amount": 4716.91,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0276",
+    "timestamp": "2024-02-08T12:34:00",
+    "amount": 1926.07,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0209",
+    "timestamp": "2024-02-05T11:11:00",
+    "amount": 2244.63,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0003",
+    "timestamp": "2024-02-02T10:04:00",
+    "amount": 32500.49,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0049",
+    "timestamp": "2024-02-08T16:40:00",
+    "amount": 1123.38,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0073",
+    "timestamp": "2024-02-11T16:06:00",
+    "amount": 15719.63,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "IT",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0145",
+    "timestamp": "2024-02-09T10:28:00",
+    "amount": 11255.35,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0446",
+    "timestamp": "2024-02-04T12:13:00",
+    "amount": 8802.49,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0487",
+    "timestamp": "2024-02-09T17:00:00",
+    "amount": 101738.89,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0451",
+    "timestamp": "2024-02-05T17:00:00",
+    "amount": 225029.63,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0124",
+    "timestamp": "2024-02-10T08:56:00",
+    "amount": 199.01,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0297",
+    "timestamp": "2024-02-06T14:03:00",
+    "amount": 1526.6,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0005",
+    "timestamp": "2024-02-10T09:14:00",
+    "amount": 1854.99,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0409",
+    "timestamp": "2024-02-07T13:47:00",
+    "amount": 388.79,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0015",
+    "timestamp": "2024-02-06T09:58:00",
+    "amount": 341.67,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0244",
+    "timestamp": "2024-02-10T13:35:00",
+    "amount": 35226.31,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0011",
+    "timestamp": "2024-02-04T18:32:00",
+    "amount": 1788.85,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0119",
+    "timestamp": "2024-02-10T10:49:00",
+    "amount": 44174.54,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0382",
+    "timestamp": "2024-02-03T10:13:00",
+    "amount": 1199.6,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0368",
+    "timestamp": "2024-02-02T09:57:00",
+    "amount": 815.07,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0158",
+    "timestamp": "2024-02-06T09:22:00",
+    "amount": 30158.32,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "HR",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0221",
+    "timestamp": "2024-02-07T17:03:00",
+    "amount": 1976.76,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0423",
+    "timestamp": "2024-02-03T09:20:00",
+    "amount": 382.06,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0026",
+    "timestamp": "2024-02-09T08:43:00",
+    "amount": 2413.66,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0137",
+    "timestamp": "2024-02-03T17:41:00",
+    "amount": 7968.31,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0490",
+    "timestamp": "2024-02-03T09:00:00",
+    "amount": 184968.56,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0219",
+    "timestamp": "2024-02-07T08:36:00",
+    "amount": 54659.91,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0319",
+    "timestamp": "2024-02-02T16:25:00",
+    "amount": 604.24,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0249",
+    "timestamp": "2024-02-04T14:33:00",
+    "amount": 1065.61,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0142",
+    "timestamp": "2024-02-08T12:25:00",
+    "amount": 1781.69,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0457",
+    "timestamp": "2024-02-10T00:00:00",
+    "amount": 92029.41,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0340",
+    "timestamp": "2024-02-01T09:22:00",
+    "amount": 14497.29,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0039",
+    "timestamp": "2024-02-08T17:33:00",
+    "amount": 3296.22,
+    "category": "Marketing",
+    "vendor": "Marketing Agency Inc",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0377",
+    "timestamp": "2024-02-04T10:46:00",
+    "amount": 1573.03,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0308",
+    "timestamp": "2024-02-06T08:34:00",
+    "amount": 1159.18,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0168",
+    "timestamp": "2024-02-07T16:10:00",
+    "amount": 4908.82,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0408",
+    "timestamp": "2024-02-02T17:27:00",
+    "amount": 64.14,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0191",
+    "timestamp": "2024-02-08T14:57:00",
+    "amount": 2953.28,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0292",
+    "timestamp": "2024-02-08T12:11:00",
+    "amount": 3404.57,
+    "category": "Equipment",
+    "vendor": "Dell Technologies",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0162",
+    "timestamp": "2024-02-08T15:49:00",
+    "amount": 6431.85,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0035",
+    "timestamp": "2024-02-05T13:52:00",
+    "amount": 32366.24,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "IT",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0132",
+    "timestamp": "2024-02-05T10:15:00",
+    "amount": 2521.16,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0034",
+    "timestamp": "2024-02-01T16:11:00",
+    "amount": 36750.61,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0125",
+    "timestamp": "2024-02-05T16:54:00",
+    "amount": 1487.86,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0082",
+    "timestamp": "2024-02-02T12:03:00",
+    "amount": 184.33,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0043",
+    "timestamp": "2024-02-02T15:28:00",
+    "amount": 2758.32,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0117",
+    "timestamp": "2024-02-06T16:00:00",
+    "amount": 282.57,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0371",
+    "timestamp": "2024-02-04T18:06:00",
+    "amount": 15061.12,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0067",
+    "timestamp": "2024-02-02T12:43:00",
+    "amount": 1517.54,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0042",
+    "timestamp": "2024-02-10T11:49:00",
+    "amount": 47266.62,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0419",
+    "timestamp": "2024-02-09T14:27:00",
+    "amount": 480.97,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0357",
+    "timestamp": "2024-02-08T13:27:00",
+    "amount": 3812.35,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0361",
+    "timestamp": "2024-02-08T08:12:00",
+    "amount": 33189.51,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0466",
+    "timestamp": "2024-02-08T16:00:00",
+    "amount": 68834.79,
+    "category": "Maintenance",
+    "vendor": "Questionable Services",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0296",
+    "timestamp": "2024-02-06T18:33:00",
+    "amount": 63.88,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0229",
+    "timestamp": "2024-02-08T13:56:00",
+    "amount": 1893.5,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0269",
+    "timestamp": "2024-02-02T09:48:00",
+    "amount": 3317.94,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0445",
+    "timestamp": "2024-02-07T12:57:00",
+    "amount": 1213.33,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0432",
+    "timestamp": "2024-02-06T18:11:00",
+    "amount": 2606.0,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0018",
+    "timestamp": "2024-02-04T16:06:00",
+    "amount": 1440.07,
+    "category": "Travel",
+    "vendor": "United Airlines",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0251",
+    "timestamp": "2024-02-01T14:35:00",
+    "amount": 346.44,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0078",
+    "timestamp": "2024-02-03T11:00:00",
+    "amount": 7535.43,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0398",
+    "timestamp": "2024-02-04T11:57:00",
+    "amount": 2068.84,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0472",
+    "timestamp": "2024-02-05T10:00:00",
+    "amount": 72440.11,
+    "category": "Software License",
+    "vendor": "Unknown Tech Supply",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0047",
+    "timestamp": "2024-02-08T14:43:00",
+    "amount": 1028.35,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0369",
+    "timestamp": "2024-02-01T09:09:00",
+    "amount": 2873.35,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0278",
+    "timestamp": "2024-02-11T17:25:00",
+    "amount": 2751.02,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0046",
+    "timestamp": "2024-02-06T13:14:00",
+    "amount": 796.39,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0293",
+    "timestamp": "2024-02-01T17:52:00",
+    "amount": 739.72,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0396",
+    "timestamp": "2024-02-02T14:35:00",
+    "amount": 2512.16,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0463",
+    "timestamp": "2024-02-03T12:00:00",
+    "amount": 217801.91,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0482",
+    "timestamp": "2024-02-07T01:00:00",
+    "amount": 57606.49,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0010",
+    "timestamp": "2024-02-07T09:38:00",
+    "amount": 1751.28,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0265",
+    "timestamp": "2024-02-09T09:36:00",
+    "amount": 5824.07,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0275",
+    "timestamp": "2024-02-09T17:01:00",
+    "amount": 67048.03,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0198",
+    "timestamp": "2024-02-10T11:24:00",
+    "amount": 367.15,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0277",
+    "timestamp": "2024-02-08T09:22:00",
+    "amount": 48856.85,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0294",
+    "timestamp": "2024-02-03T13:00:00",
+    "amount": 853.32,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0467",
+    "timestamp": "2024-02-01T12:00:00",
+    "amount": 222456.25,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0477",
+    "timestamp": "2024-02-06T16:00:00",
+    "amount": 247834.56,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0227",
+    "timestamp": "2024-02-06T14:44:00",
+    "amount": 804.32,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0205",
+    "timestamp": "2024-02-05T12:02:00",
+    "amount": 449.56,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0471",
+    "timestamp": "2024-02-04T14:00:00",
+    "amount": 141420.29,
+    "category": "Travel",
+    "vendor": "Suspicious Vendor LLC",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0063",
+    "timestamp": "2024-02-03T10:13:00",
+    "amount": 452.67,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0135",
+    "timestamp": "2024-02-06T11:41:00",
+    "amount": 127.46,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0283",
+    "timestamp": "2024-02-05T13:26:00",
+    "amount": 10038.56,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0151",
+    "timestamp": "2024-02-08T13:10:00",
+    "amount": 1368.77,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0375",
+    "timestamp": "2024-02-02T09:56:00",
+    "amount": 2954.04,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0239",
+    "timestamp": "2024-02-10T18:34:00",
+    "amount": 2320.41,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0352",
+    "timestamp": "2024-02-01T09:54:00",
+    "amount": 811.12,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0097",
+    "timestamp": "2024-02-07T16:17:00",
+    "amount": 1452.51,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0180",
+    "timestamp": "2024-02-04T18:56:00",
+    "amount": 20464.26,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0309",
+    "timestamp": "2024-02-06T13:19:00",
+    "amount": 446.43,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0100",
+    "timestamp": "2024-02-01T17:28:00",
+    "amount": 47638.74,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0401",
+    "timestamp": "2024-02-08T13:21:00",
+    "amount": 872.5,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0322",
+    "timestamp": "2024-02-06T08:36:00",
+    "amount": 9810.61,
+    "category": "Equipment",
+    "vendor": "Dell Technologies",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0171",
+    "timestamp": "2024-02-07T11:48:00",
+    "amount": 1460.49,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0441",
+    "timestamp": "2024-02-05T15:22:00",
+    "amount": 1669.8,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0165",
+    "timestamp": "2024-02-10T11:16:00",
+    "amount": 240.59,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0134",
+    "timestamp": "2024-02-02T18:10:00",
+    "amount": 1290.3,
+    "category": "Travel",
+    "vendor": "Hilton Hotels",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0027",
+    "timestamp": "2024-02-03T18:43:00",
+    "amount": 41.82,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0050",
+    "timestamp": "2024-02-04T13:20:00",
+    "amount": 4083.36,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0318",
+    "timestamp": "2024-02-07T15:54:00",
+    "amount": 31639.23,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0300",
+    "timestamp": "2024-02-01T08:35:00",
+    "amount": 18942.65,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0051",
+    "timestamp": "2024-02-04T15:45:00",
+    "amount": 1507.29,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0354",
+    "timestamp": "2024-02-09T13:33:00",
+    "amount": 3841.21,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0093",
+    "timestamp": "2024-02-06T13:45:00",
+    "amount": 206.31,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0411",
+    "timestamp": "2024-02-08T09:49:00",
+    "amount": 2407.28,
+    "category": "Travel",
+    "vendor": "United Airlines",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0045",
+    "timestamp": "2024-02-05T13:30:00",
+    "amount": 930.86,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0213",
+    "timestamp": "2024-02-01T13:48:00",
+    "amount": 903.77,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0254",
+    "timestamp": "2024-02-06T11:14:00",
+    "amount": 120.36,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0130",
+    "timestamp": "2024-02-04T15:29:00",
+    "amount": 659.15,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0140",
+    "timestamp": "2024-02-10T09:29:00",
+    "amount": 402.65,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0415",
+    "timestamp": "2024-02-10T10:02:00",
+    "amount": 43337.56,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0498",
+    "timestamp": "2024-02-06T12:00:00",
+    "amount": 90549.59,
+    "category": "Office Supplies",
+    "vendor": "Suspicious Vendor LLC",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0464",
+    "timestamp": "2024-02-10T21:00:00",
+    "amount": 73346.34,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0120",
+    "timestamp": "2024-02-02T10:29:00",
+    "amount": 237.32,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0197",
+    "timestamp": "2024-02-02T13:07:00",
+    "amount": 381.92,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0228",
+    "timestamp": "2024-02-10T10:51:00",
+    "amount": 2023.31,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0048",
+    "timestamp": "2024-02-08T08:18:00",
+    "amount": 151.52,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0333",
+    "timestamp": "2024-02-09T11:37:00",
+    "amount": 34666.88,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Sales",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0425",
+    "timestamp": "2024-02-08T17:07:00",
+    "amount": 2564.2,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0399",
+    "timestamp": "2024-02-06T11:46:00",
+    "amount": 12184.88,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0367",
+    "timestamp": "2024-02-08T08:04:00",
+    "amount": 3946.51,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0182",
+    "timestamp": "2024-02-01T17:23:00",
+    "amount": 18367.76,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0136",
+    "timestamp": "2024-02-06T09:33:00",
+    "amount": 2071.34,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0088",
+    "timestamp": "2024-02-02T09:24:00",
+    "amount": 8502.67,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0291",
+    "timestamp": "2024-02-09T10:28:00",
+    "amount": 1941.0,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0217",
+    "timestamp": "2024-02-06T13:38:00",
+    "amount": 451.67,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0468",
+    "timestamp": "2024-02-07T00:00:00",
+    "amount": 33368.77,
+    "category": "Equipment",
+    "vendor": "Dell Technologies",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0449",
+    "timestamp": "2024-02-07T12:29:00",
+    "amount": 1265.22,
+    "category": "Travel",
+    "vendor": "Enterprise Rent-a-Car",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0279",
+    "timestamp": "2024-02-03T17:58:00",
+    "amount": 42482.58,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0452",
+    "timestamp": "2024-02-04T01:00:00",
+    "amount": 75353.78,
+    "category": "Utilities",
+    "vendor": "Phone Service Inc",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0235",
+    "timestamp": "2024-02-02T12:00:00",
+    "amount": 323.85,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0154",
+    "timestamp": "2024-02-04T15:00:00",
+    "amount": 1913.53,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0250",
+    "timestamp": "2024-02-03T11:38:00",
+    "amount": 4286.62,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0315",
+    "timestamp": "2024-02-10T12:03:00",
+    "amount": 2187.61,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0107",
+    "timestamp": "2024-02-07T11:16:00",
+    "amount": 5958.9,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0072",
+    "timestamp": "2024-02-09T10:01:00",
+    "amount": 1811.8,
+    "category": "Travel",
+    "vendor": "United Airlines",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0290",
+    "timestamp": "2024-02-07T11:36:00",
+    "amount": 1033.51,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0455",
+    "timestamp": "2024-02-04T10:00:00",
+    "amount": 123303.46,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0149",
+    "timestamp": "2024-02-01T18:26:00",
+    "amount": 3520.43,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0144",
+    "timestamp": "2024-02-10T12:43:00",
+    "amount": 3088.9,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0196",
+    "timestamp": "2024-02-10T12:58:00",
+    "amount": 5334.74,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0112",
+    "timestamp": "2024-02-09T12:43:00",
+    "amount": 3052.95,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0485",
+    "timestamp": "2024-02-08T15:00:00",
+    "amount": 114403.89,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0286",
+    "timestamp": "2024-02-02T17:47:00",
+    "amount": 63.89,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0062",
+    "timestamp": "2024-02-09T15:46:00",
+    "amount": 1301.19,
+    "category": "Travel",
+    "vendor": "United Airlines",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0274",
+    "timestamp": "2024-02-02T14:16:00",
+    "amount": 57276.85,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0138",
+    "timestamp": "2024-02-07T08:55:00",
+    "amount": 1091.17,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0484",
+    "timestamp": "2024-02-08T10:00:00",
+    "amount": 96628.65,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0147",
+    "timestamp": "2024-02-04T13:46:00",
+    "amount": 236.22,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0014",
+    "timestamp": "2024-02-11T13:44:00",
+    "amount": 2664.77,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0326",
+    "timestamp": "2024-02-11T10:19:00",
+    "amount": 37067.81,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0280",
+    "timestamp": "2024-02-07T08:57:00",
+    "amount": 1499.01,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0216",
+    "timestamp": "2024-02-05T10:20:00",
+    "amount": 1478.98,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0358",
+    "timestamp": "2024-02-06T14:14:00",
+    "amount": 1657.87,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0152",
+    "timestamp": "2024-02-10T15:15:00",
+    "amount": 61309.86,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0084",
+    "timestamp": "2024-02-08T10:12:00",
+    "amount": 21773.38,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0044",
+    "timestamp": "2024-02-11T09:04:00",
+    "amount": 755.07,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0156",
+    "timestamp": "2024-02-09T15:14:00",
+    "amount": 301.97,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0363",
+    "timestamp": "2024-02-09T13:21:00",
+    "amount": 488.96,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0272",
+    "timestamp": "2024-02-03T11:14:00",
+    "amount": 30632.62,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0167",
+    "timestamp": "2024-02-07T14:49:00",
+    "amount": 1840.29,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0133",
+    "timestamp": "2024-02-02T12:13:00",
+    "amount": 160.88,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0079",
+    "timestamp": "2024-02-02T14:05:00",
+    "amount": 21762.57,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "HR",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0256",
+    "timestamp": "2024-02-10T12:10:00",
+    "amount": 2433.53,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0264",
+    "timestamp": "2024-02-04T12:41:00",
+    "amount": 54139.96,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0178",
+    "timestamp": "2024-02-10T15:16:00",
+    "amount": 9505.89,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0230",
+    "timestamp": "2024-02-05T09:06:00",
+    "amount": 811.88,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0215",
+    "timestamp": "2024-02-08T13:57:00",
+    "amount": 1915.97,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0311",
+    "timestamp": "2024-02-10T10:00:00",
+    "amount": 654.58,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0376",
+    "timestamp": "2024-02-03T13:55:00",
+    "amount": 1461.66,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0118",
+    "timestamp": "2024-02-07T08:21:00",
+    "amount": 454.35,
+    "category": "Meals",
+    "vendor": "Lunch Spot",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0413",
+    "timestamp": "2024-02-11T11:35:00",
+    "amount": 261.33,
+    "category": "Meals",
+    "vendor": "Coffee Shop Inc",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0036",
+    "timestamp": "2024-02-04T13:09:00",
+    "amount": 20307.46,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0113",
+    "timestamp": "2024-02-07T16:55:00",
+    "amount": 4368.3,
+    "category": "Utilities",
+    "vendor": "Internet Provider",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0245",
+    "timestamp": "2024-02-01T15:37:00",
+    "amount": 205.17,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0454",
+    "timestamp": "2024-02-08T09:00:00",
+    "amount": 146231.14,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0259",
+    "timestamp": "2024-02-04T10:20:00",
+    "amount": 19082.17,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0493",
+    "timestamp": "2024-02-04T09:00:00",
+    "amount": 125128.51,
+    "category": "Travel",
+    "vendor": "Suspicious Vendor LLC",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0317",
+    "timestamp": "2024-02-09T12:46:00",
+    "amount": 70538.63,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0212",
+    "timestamp": "2024-02-08T16:29:00",
+    "amount": 2672.29,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0458",
+    "timestamp": "2024-02-02T17:00:00",
+    "amount": 105268.28,
+    "category": "Marketing",
+    "vendor": "Questionable Services",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0218",
+    "timestamp": "2024-02-08T18:33:00",
+    "amount": 2822.02,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0395",
+    "timestamp": "2024-02-08T16:12:00",
+    "amount": 2152.52,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0159",
+    "timestamp": "2024-02-02T18:05:00",
+    "amount": 18488.07,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "Legal",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0459",
+    "timestamp": "2024-02-04T09:00:00",
+    "amount": 157008.63,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0016",
+    "timestamp": "2024-02-02T17:37:00",
+    "amount": 1291.48,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0301",
+    "timestamp": "2024-02-05T15:21:00",
+    "amount": 2176.82,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0366",
+    "timestamp": "2024-02-03T08:27:00",
+    "amount": 1722.14,
+    "category": "Travel",
+    "vendor": "Hilton Hotels",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0074",
+    "timestamp": "2024-02-10T10:04:00",
+    "amount": 164.43,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0200",
+    "timestamp": "2024-02-07T15:13:00",
+    "amount": 1065.08,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0094",
+    "timestamp": "2024-02-05T12:46:00",
+    "amount": 2748.91,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0405",
+    "timestamp": "2024-02-03T10:31:00",
+    "amount": 1905.85,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0231",
+    "timestamp": "2024-02-03T18:02:00",
+    "amount": 1049.66,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0172",
+    "timestamp": "2024-02-08T08:33:00",
+    "amount": 2398.67,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0372",
+    "timestamp": "2024-02-06T12:02:00",
+    "amount": 39993.24,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0437",
+    "timestamp": "2024-02-05T08:20:00",
+    "amount": 11851.24,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0233",
+    "timestamp": "2024-02-08T10:37:00",
+    "amount": 14443.54,
+    "category": "Equipment",
+    "vendor": "Dell Technologies",
+    "department": "Sales",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0392",
+    "timestamp": "2024-02-03T15:52:00",
+    "amount": 1027.05,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0038",
+    "timestamp": "2024-02-02T13:54:00",
+    "amount": 1292.55,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0356",
+    "timestamp": "2024-02-05T13:35:00",
+    "amount": 3606.62,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0393",
+    "timestamp": "2024-02-04T16:46:00",
+    "amount": 28937.22,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0384",
+    "timestamp": "2024-02-02T12:07:00",
+    "amount": 1805.96,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0494",
+    "timestamp": "2024-02-10T14:00:00",
+    "amount": 72907.06,
+    "category": "Software License",
+    "vendor": "Shell Company Inc",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0351",
+    "timestamp": "2024-02-05T16:34:00",
+    "amount": 45837.87,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0008",
+    "timestamp": "2024-02-07T13:16:00",
+    "amount": 29815.06,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0281",
+    "timestamp": "2024-02-03T12:09:00",
+    "amount": 38535.45,
+    "category": "Consulting",
+    "vendor": "Accenture",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0262",
+    "timestamp": "2024-02-11T10:47:00",
+    "amount": 2515.39,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0365",
+    "timestamp": "2024-02-04T12:49:00",
+    "amount": 13590.76,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0422",
+    "timestamp": "2024-02-03T14:46:00",
+    "amount": 2067.31,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0337",
+    "timestamp": "2024-02-01T17:58:00",
+    "amount": 186.03,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0383",
+    "timestamp": "2024-02-05T14:04:00",
+    "amount": 2938.1,
+    "category": "Software License",
+    "vendor": "Adobe Systems",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0450",
+    "timestamp": "2024-02-05T13:11:00",
+    "amount": 682.0,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0080",
+    "timestamp": "2024-02-09T10:41:00",
+    "amount": 5399.34,
+    "category": "Equipment",
+    "vendor": "Dell Technologies",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0390",
+    "timestamp": "2024-02-05T18:28:00",
+    "amount": 58222.37,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0220",
+    "timestamp": "2024-02-01T18:31:00",
+    "amount": 2339.5,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0185",
+    "timestamp": "2024-02-06T15:50:00",
+    "amount": 121.3,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0314",
+    "timestamp": "2024-02-06T12:57:00",
+    "amount": 13353.0,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "Sales",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0255",
+    "timestamp": "2024-02-06T15:06:00",
+    "amount": 36481.83,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "Sales",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0427",
+    "timestamp": "2024-02-01T12:16:00",
+    "amount": 2281.7,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0103",
+    "timestamp": "2024-02-10T14:56:00",
+    "amount": 12384.04,
+    "category": "Marketing",
+    "vendor": "Marketing Agency Inc",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0306",
+    "timestamp": "2024-02-09T15:55:00",
+    "amount": 362.67,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0210",
+    "timestamp": "2024-02-02T12:01:00",
+    "amount": 1543.21,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0040",
+    "timestamp": "2024-02-02T17:00:00",
+    "amount": 399.22,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0305",
+    "timestamp": "2024-02-07T13:42:00",
+    "amount": 2475.83,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0163",
+    "timestamp": "2024-02-03T17:34:00",
+    "amount": 2420.58,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0002",
+    "timestamp": "2024-02-05T13:17:00",
+    "amount": 1585.26,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0330",
+    "timestamp": "2024-02-08T11:39:00",
+    "amount": 10078.15,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0199",
+    "timestamp": "2024-02-03T09:13:00",
+    "amount": 586.29,
+    "category": "Maintenance",
+    "vendor": "HVAC Specialists",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0004",
+    "timestamp": "2024-02-10T08:38:00",
+    "amount": 3708.65,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0439",
+    "timestamp": "2024-02-01T10:32:00",
+    "amount": 2378.61,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0211",
+    "timestamp": "2024-02-09T08:29:00",
+    "amount": 760.47,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0192",
+    "timestamp": "2024-02-08T13:37:00",
+    "amount": 2641.45,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0499",
+    "timestamp": "2024-02-04T22:00:00",
+    "amount": 76469.54,
+    "category": "Marketing",
+    "vendor": "Marketing Agency Inc",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0024",
+    "timestamp": "2024-02-09T15:29:00",
+    "amount": 9187.42,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0474",
+    "timestamp": "2024-02-10T16:00:00",
+    "amount": 109082.14,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0096",
+    "timestamp": "2024-02-05T13:31:00",
+    "amount": 2242.5,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0190",
+    "timestamp": "2024-02-03T14:01:00",
+    "amount": 1626.04,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0019",
+    "timestamp": "2024-02-05T10:59:00",
+    "amount": 12274.96,
+    "category": "Equipment",
+    "vendor": "HP Enterprise",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0282",
+    "timestamp": "2024-02-11T16:41:00",
+    "amount": 1659.52,
+    "category": "Travel",
+    "vendor": "Hilton Hotels",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0001",
+    "timestamp": "2024-02-04T09:20:00",
+    "amount": 1769.16,
+    "category": "Maintenance",
+    "vendor": "Facility Services",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0335",
+    "timestamp": "2024-02-03T16:22:00",
+    "amount": 1260.29,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0083",
+    "timestamp": "2024-02-10T12:48:00",
+    "amount": 8844.58,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0202",
+    "timestamp": "2024-02-07T12:08:00",
+    "amount": 2091.57,
+    "category": "Maintenance",
+    "vendor": "Building Maintenance Inc",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0126",
+    "timestamp": "2024-02-07T10:48:00",
+    "amount": 396.18,
+    "category": "Office Supplies",
+    "vendor": "Staples Inc",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0013",
+    "timestamp": "2024-02-01T12:51:00",
+    "amount": 147.24,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0461",
+    "timestamp": "2024-02-03T00:00:00",
+    "amount": 135175.91,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0248",
+    "timestamp": "2024-02-09T13:45:00",
+    "amount": 836.95,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0068",
+    "timestamp": "2024-02-06T12:43:00",
+    "amount": 1040.2,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0054",
+    "timestamp": "2024-02-06T13:05:00",
+    "amount": 5700.43,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0208",
+    "timestamp": "2024-02-04T15:47:00",
+    "amount": 39112.09,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0121",
+    "timestamp": "2024-02-02T18:14:00",
+    "amount": 707.38,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0430",
+    "timestamp": "2024-02-02T15:36:00",
+    "amount": 144.39,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0266",
+    "timestamp": "2024-02-08T10:58:00",
+    "amount": 35474.82,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0128",
+    "timestamp": "2024-02-04T18:35:00",
+    "amount": 6183.15,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0017",
+    "timestamp": "2024-02-01T16:56:00",
+    "amount": 14162.21,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0285",
+    "timestamp": "2024-02-07T17:05:00",
+    "amount": 2227.7,
+    "category": "Maintenance",
+    "vendor": "Cleaning Co",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0056",
+    "timestamp": "2024-02-07T09:47:00",
+    "amount": 1863.78,
+    "category": "Training",
+    "vendor": "Training Vendor Inc",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0143",
+    "timestamp": "2024-02-03T15:12:00",
+    "amount": 1720.4,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0184",
+    "timestamp": "2024-02-02T17:55:00",
+    "amount": 58738.43,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0076",
+    "timestamp": "2024-02-11T18:34:00",
+    "amount": 1943.11,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0426",
+    "timestamp": "2024-02-06T13:51:00",
+    "amount": 12801.43,
+    "category": "Equipment",
+    "vendor": "Office Equipment Inc",
+    "department": "Sales",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0388",
+    "timestamp": "2024-02-10T09:52:00",
+    "amount": 32.0,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0462",
+    "timestamp": "2024-02-04T23:00:00",
+    "amount": 50549.75,
+    "category": "Meals",
+    "vendor": "Conference Center Dining",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0299",
+    "timestamp": "2024-02-06T14:56:00",
+    "amount": 60334.83,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Legal",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0339",
+    "timestamp": "2024-02-08T09:40:00",
+    "amount": 12211.97,
+    "category": "Marketing",
+    "vendor": "Facebook Business",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0183",
+    "timestamp": "2024-02-10T16:20:00",
+    "amount": 1509.14,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0023",
+    "timestamp": "2024-02-11T11:57:00",
+    "amount": 32195.96,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0387",
+    "timestamp": "2024-02-07T13:00:00",
+    "amount": 1810.08,
+    "category": "Training",
+    "vendor": "Coursera",
+    "department": "Engineering",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0206",
+    "timestamp": "2024-02-10T13:29:00",
+    "amount": 384.54,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0460",
+    "timestamp": "2024-02-09T09:00:00",
+    "amount": 179975.7,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Legal",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0257",
+    "timestamp": "2024-02-10T11:46:00",
+    "amount": 1268.51,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0400",
+    "timestamp": "2024-02-02T12:20:00",
+    "amount": 13651.56,
+    "category": "Software License",
+    "vendor": "Oracle",
+    "department": "HR",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0007",
+    "timestamp": "2024-02-09T08:12:00",
+    "amount": 8398.26,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0187",
+    "timestamp": "2024-02-08T08:15:00",
+    "amount": 41075.96,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "Legal",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0303",
+    "timestamp": "2024-02-03T10:03:00",
+    "amount": 2024.2,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Finance",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0469",
+    "timestamp": "2024-02-04T09:00:00",
+    "amount": 152335.16,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0123",
+    "timestamp": "2024-02-06T11:27:00",
+    "amount": 31067.22,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "Engineering",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0129",
+    "timestamp": "2024-02-09T13:35:00",
+    "amount": 1877.26,
+    "category": "Utilities",
+    "vendor": "Water District",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0032",
+    "timestamp": "2024-02-02T13:10:00",
+    "amount": 4068.4,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Operations",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0342",
+    "timestamp": "2024-02-01T09:27:00",
+    "amount": 2953.88,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Sales",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0052",
+    "timestamp": "2024-02-10T18:42:00",
+    "amount": 12047.03,
+    "category": "Marketing",
+    "vendor": "Print Shop Co",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0169",
+    "timestamp": "2024-02-07T15:12:00",
+    "amount": 490.95,
+    "category": "Meals",
+    "vendor": "Restaurant XYZ",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0214",
+    "timestamp": "2024-02-06T15:15:00",
+    "amount": 49424.53,
+    "category": "Consulting",
+    "vendor": "McKinsey & Company",
+    "department": "Marketing",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0022",
+    "timestamp": "2024-02-08T16:56:00",
+    "amount": 29176.03,
+    "category": "Software License",
+    "vendor": "SAP",
+    "department": "HR",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0188",
+    "timestamp": "2024-02-09T14:59:00",
+    "amount": 12033.81,
+    "category": "Equipment",
+    "vendor": "Tech Supply Co",
+    "department": "Sales",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0483",
+    "timestamp": "2024-02-07T11:00:00",
+    "amount": 123443.75,
+    "category": "Meals",
+    "vendor": "Offshore Consulting Ltd",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0448",
+    "timestamp": "2024-02-03T11:32:00",
+    "amount": 1751.53,
+    "category": "Office Supplies",
+    "vendor": "Amazon Business",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0114",
+    "timestamp": "2024-02-08T09:58:00",
+    "amount": 42065.81,
+    "category": "Software License",
+    "vendor": "Microsoft Corporation",
+    "department": "Marketing",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0090",
+    "timestamp": "2024-02-10T13:03:00",
+    "amount": 1947.97,
+    "category": "Travel",
+    "vendor": "Delta Airlines",
+    "department": "Marketing",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0329",
+    "timestamp": "2024-02-08T17:53:00",
+    "amount": 16019.92,
+    "category": "Consulting",
+    "vendor": "Deloitte",
+    "department": "IT",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0496",
+    "timestamp": "2024-02-04T14:00:00",
+    "amount": 141480.29,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0095",
+    "timestamp": "2024-02-05T11:11:00",
+    "amount": 24766.96,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0374",
+    "timestamp": "2024-02-10T18:45:00",
+    "amount": 16800.29,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0298",
+    "timestamp": "2024-02-05T13:20:00",
+    "amount": 819.3,
+    "category": "Travel",
+    "vendor": "Marriott Hotels",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0064",
+    "timestamp": "2024-02-04T14:54:00",
+    "amount": 547.21,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "HR",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0332",
+    "timestamp": "2024-02-04T18:08:00",
+    "amount": 51285.71,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Finance",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0295",
+    "timestamp": "2024-02-06T09:53:00",
+    "amount": 335.58,
+    "category": "Office Supplies",
+    "vendor": "Office Depot",
+    "department": "IT",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0224",
+    "timestamp": "2024-02-03T09:10:00",
+    "amount": 16096.89,
+    "category": "Consulting",
+    "vendor": "Strategy Partners",
+    "department": "Engineering",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0344",
+    "timestamp": "2024-02-09T10:47:00",
+    "amount": 3106.49,
+    "category": "Consulting",
+    "vendor": "Accenture",
+    "department": "HR",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0181",
+    "timestamp": "2024-02-10T13:10:00",
+    "amount": 38470.19,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Operations",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0288",
+    "timestamp": "2024-02-09T15:52:00",
+    "amount": 4993.81,
+    "category": "Utilities",
+    "vendor": "Electric Company",
+    "department": "Finance",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0420",
+    "timestamp": "2024-02-04T10:12:00",
+    "amount": 2021.32,
+    "category": "Travel",
+    "vendor": "Hilton Hotels",
+    "department": "Marketing",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0106",
+    "timestamp": "2024-02-11T12:39:00",
+    "amount": 28700.57,
+    "category": "Consulting",
+    "vendor": "Accenture",
+    "department": "Legal",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0370",
+    "timestamp": "2024-02-08T08:20:00",
+    "amount": 63756.7,
+    "category": "Consulting",
+    "vendor": "Consulting Firm LLC",
+    "department": "IT",
+    "payment_method": "ACH Transfer"
+  },
+  {
+    "transaction_id": "TXN0486",
+    "timestamp": "2024-02-10T09:00:00",
+    "amount": 54037.24,
+    "category": "Maintenance",
+    "vendor": "Offshore Consulting Ltd",
+    "department": "Finance",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0389",
+    "timestamp": "2024-02-10T10:06:00",
+    "amount": 20008.77,
+    "category": "Software License",
+    "vendor": "Salesforce",
+    "department": "Operations",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "transaction_id": "TXN0453",
+    "timestamp": "2024-02-10T09:00:00",
+    "amount": 117283.4,
+    "category": "Meals",
+    "vendor": "Catering Co",
+    "department": "Legal",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0270",
+    "timestamp": "2024-02-09T12:43:00",
+    "amount": 9419.35,
+    "category": "Equipment",
+    "vendor": "Lenovo",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0331",
+    "timestamp": "2024-02-03T15:29:00",
+    "amount": 786.77,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Engineering",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0416",
+    "timestamp": "2024-02-08T12:20:00",
+    "amount": 218.29,
+    "category": "Office Supplies",
+    "vendor": "Quill Corporation",
+    "department": "Operations",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0226",
+    "timestamp": "2024-02-10T13:11:00",
+    "amount": 1906.39,
+    "category": "Training",
+    "vendor": "Udemy Business",
+    "department": "IT",
+    "payment_method": "Check"
+  },
+  {
+    "transaction_id": "TXN0164",
+    "timestamp": "2024-02-06T08:32:00",
+    "amount": 1782.63,
+    "category": "Marketing",
+    "vendor": "Google Ads",
+    "department": "Legal",
+    "payment_method": "Corporate Card"
+  },
+  {
+    "transaction_id": "TXN0222",
+    "timestamp": "2024-02-11T12:46:00",
+    "amount": 1745.67,
+    "category": "Training",
+    "vendor": "LinkedIn Learning",
+    "department": "Sales",
+    "payment_method": "Corporate Card"
+  }
+]

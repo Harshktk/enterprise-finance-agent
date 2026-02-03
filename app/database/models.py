@@ -25,6 +25,7 @@ class AgentDecision(Base):
     risk_level = Column(String)
     summary = Column(Text)
     action_taken = Column(String)
+    policy_action = Column(String)
     signals = Column(JSON)
     recommended_action = Column(String)
     model_version = Column(String)
