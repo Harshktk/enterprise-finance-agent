@@ -11,7 +11,7 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "mistral")
 
 # ── Groq (free cloud LLM) ─────────────────────────────────────────────────
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama3-8b-8192")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")  # current active model
 
 # ── Anthropic ─────────────────────────────────────────────────────────────
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
@@ -45,6 +45,10 @@ def _run_ollama_local(prompt: str) -> str:
 def _run_groq(prompt: str) -> str:
     if not GROQ_API_KEY:
         raise ValueError("GROQ_API_KEY environment variable not set")
+
+    # Trim prompt to avoid token limit issues
+    prompt = prompt[:6000]
+
     response = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={
@@ -53,13 +57,28 @@ def _run_groq(prompt: str) -> str:
         },
         json={
             "model": GROQ_MODEL,
-            "messages": [{"role": "user", "content": prompt}],
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a finance risk analyst AI. Always respond with valid JSON only."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
             "temperature": 0.2,
             "max_tokens": 1024
         },
         timeout=30
     )
-    response.raise_for_status()
+
+    try:
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        error_body = response.text
+        raise ValueError(f"Groq API error {response.status_code}: {error_body}") from e
+
     return response.json()["choices"][0]["message"]["content"]
 
 
