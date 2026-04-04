@@ -2,11 +2,12 @@ services:
   - type: web
     name: enterprise-finance-agent-ui
     env: static
+    rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     envVars:
       - key: VITE_API_URL
-        value: https://your-backend.onrender.com
+        sync: false
     routes:
       - type: rewrite
         source: /*
