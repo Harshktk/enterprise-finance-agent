@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
 from datetime import datetime
@@ -111,7 +111,6 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
     if not txn:
         raise HTTPException(404, "Transaction not found")
 
-    # Return cached decision if already investigated
     existing = db.query(AgentDecision).filter(
         AgentDecision.transaction_id == transaction_id
     ).first()
@@ -125,32 +124,20 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
             "action_taken": existing.action_taken
         }
 
-    # Guard: anomaly_score must exist
     if txn.anomaly_score is None:
-        raise HTTPException(
-            status_code=400,
-            detail="Transaction has not been scored yet. Run /ml/score first."
-        )
+        raise HTTPException(status_code=400, detail="Transaction not scored yet. Run /ml/score first.")
 
-    # Guard: model must be trained
     if not detector.is_trained:
-        raise HTTPException(
-            status_code=400,
-            detail="Model not trained. Run /ml/train first."
-        )
+        raise HTTPException(status_code=400, detail="Model not trained. Run /ml/train first.")
 
-    risk_level = map_risk_level(float(txn.anomaly_score))
-
-    shap_values = get_shap_for_transaction(
-        transaction_id, detector.model, detector.original_df
-    )
+    risk_level  = map_risk_level(float(txn.anomaly_score))
+    shap_values = get_shap_for_transaction(transaction_id, detector.model, detector.original_df)
     shap_signals = [{"feature": k, "impact": v} for k, v in shap_values.items()]
 
     recent_decisions = (
         db.query(AgentDecision)
         .order_by(AgentDecision.created_at.desc())
-        .limit(5)
-        .all()
+        .limit(5).all()
     )
     memory = [
         {"transaction_id": d.transaction_id, "risk_level": d.risk_level, "summary": d.summary}
@@ -171,7 +158,7 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
     )
 
     policy_action = apply_policy(risk_level)
-    action = decide_action(risk_level=risk_level, anomaly_score=float(txn.anomaly_score))
+    action        = decide_action(risk_level=risk_level, anomaly_score=float(txn.anomaly_score))
 
     decision = AgentDecision(
         transaction_id=transaction_id,
@@ -206,46 +193,59 @@ def get_agent_decisions(transaction_id: str, db: Session = Depends(get_db)):
 
 
 @router.post("/agent/auto-monitor")
-def auto_monitor(db: Session = Depends(get_db)):
+def auto_monitor(
+    db: Session = Depends(get_db),
+    limit: int = Query(default=15, description="Max transactions to process per run")
+):
+    """
+    Investigates anomalous transactions in batches.
+    Skips already-investigated ones automatically.
+    Call multiple times to process all — each call picks up where the last left off.
+    Default limit=15 keeps well within Render's 30s request timeout.
+    """
     if not detector.is_trained:
         raise HTTPException(status_code=400, detail="Model not trained. Run /ml/train first.")
 
-    txns = db.query(Transaction).filter(Transaction.is_anomaly == 1).all()
-    results = []
-    errors = []
+    # Only fetch unscored anomalies that haven't been investigated yet
+    all_anomalies = db.query(Transaction).filter(Transaction.is_anomaly == 1).all()
 
-    for i, txn in enumerate(txns):
-        # Skip already investigated
+    pending = []
+    for txn in all_anomalies:
+        if txn.anomaly_score is None:
+            continue
         exists = db.query(AgentDecision).filter(
             AgentDecision.transaction_id == txn.transaction_id
         ).first()
-        if exists:
-            continue
+        if not exists:
+            pending.append(txn)
 
-        # Skip unscored transactions
-        if txn.anomaly_score is None:
-            continue
+    # Total remaining before this run
+    total_remaining = len(pending)
 
+    # Process only up to `limit` per call
+    to_process = pending[:limit]
+
+    results = []
+    errors  = []
+
+    for txn in to_process:
         try:
             shap_values = get_shap_for_transaction(
                 txn.transaction_id, detector.model, detector.original_df
             )
-
             memory = (
                 db.query(AgentDecision)
                 .order_by(AgentDecision.created_at.desc())
-                .limit(3)
-                .all()
+                .limit(3).all()
             )
-
             result = investigate(
                 txn={
                     "transaction_id": txn.transaction_id,
-                    "amount": txn.amount,
-                    "vendor": txn.vendor,
-                    "department": txn.department,
-                    "anomaly_score": txn.anomaly_score,
-                    "is_anomaly": txn.is_anomaly
+                    "amount":         txn.amount,
+                    "vendor":         txn.vendor,
+                    "department":     txn.department,
+                    "anomaly_score":  txn.anomaly_score,
+                    "is_anomaly":     txn.is_anomaly
                 },
                 shap=shap_values,
                 memory=[
@@ -254,9 +254,9 @@ def auto_monitor(db: Session = Depends(get_db)):
                 ]
             )
 
-            risk_level = map_risk_level(float(txn.anomaly_score))
+            risk_level    = map_risk_level(float(txn.anomaly_score))
             policy_action = apply_policy(risk_level)
-            action = decide_action(risk_level=risk_level, anomaly_score=float(txn.anomaly_score))
+            action        = decide_action(risk_level=risk_level, anomaly_score=float(txn.anomaly_score))
 
             decision = AgentDecision(
                 transaction_id=txn.transaction_id,
@@ -274,20 +274,22 @@ def auto_monitor(db: Session = Depends(get_db)):
             db.commit()
             results.append(txn.transaction_id)
 
-            # Rate limit guard — 1.5s between Groq calls stays well under 6000 TPM
-            time.sleep(1.5)
+            time.sleep(1.5)  # stay under Groq 6000 TPM free tier
 
         except Exception as e:
             errors.append({"transaction_id": txn.transaction_id, "error": str(e)})
-            # On rate limit, wait longer before continuing
             if "429" in str(e):
                 time.sleep(5)
             continue
 
+    still_remaining = total_remaining - len(results)
+
     return {
-        "processed": results,
-        "skipped_errors": errors,
-        "total": len(results)
+        "processed_this_run": results,
+        "count_this_run":     len(results),
+        "still_remaining":    still_remaining,
+        "errors":             errors,
+        "done":               still_remaining == 0
     }
 
 
@@ -303,9 +305,9 @@ def submit_feedback(transaction_id: str, payload: dict, db: Session = Depends(ge
     ).first()
     if not decision:
         raise HTTPException(404, "Decision not found")
-    decision.feedback = payload["verdict"]
+    decision.feedback      = payload["verdict"]
     decision.feedback_notes = payload.get("notes")
-    decision.feedback_at = datetime.utcnow()
+    decision.feedback_at   = datetime.utcnow()
     db.commit()
     return {"status": "feedback recorded"}
 
@@ -316,9 +318,9 @@ def retrain_from_feedback(db: Session = Depends(get_db)):
     if not decisions:
         return {"status": "no feedback yet"}
     summary = {
-        "total": len(decisions),
-        "correct": sum(1 for d in decisions if d.feedback == "correct"),
+        "total":          len(decisions),
+        "correct":        sum(1 for d in decisions if d.feedback == "correct"),
         "false_positive": sum(1 for d in decisions if d.feedback == "false_positive"),
-        "missed": sum(1 for d in decisions if d.feedback == "missed")
+        "missed":         sum(1 for d in decisions if d.feedback == "missed")
     }
     return {"status": "feedback reviewed", "summary": summary, "note": "Threshold retraining pending"}
