@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
+from sqlalchemy import text
 from datetime import datetime
 import time
 from app.database.session import SessionLocal
@@ -103,6 +104,28 @@ from app.agent.investigator import investigate
 from app.database.models import AgentDecision
 
 
+# ── Admin: clear all data ──────────────────────────────────────────────────
+@router.post("/admin/clear-data")
+def clear_data(db: Session = Depends(get_db)):
+    """
+    Truncates agent_decisions then transactions.
+    Use this to reset the database before re-ingesting fresh data.
+    Remove this endpoint after use.
+    """
+    db.execute(text("TRUNCATE TABLE agent_decisions"))
+    db.execute(text("TRUNCATE TABLE transactions"))
+    db.commit()
+
+    # Reset in-memory model too
+    global detector
+    detector = AnomalyDetector()
+
+    return {
+        "status": "cleared",
+        "message": "agent_decisions and transactions tables truncated. Model reset."
+    }
+
+
 @router.post("/agent/investigate/{transaction_id}")
 def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
     txn = db.query(Transaction).filter(
@@ -130,8 +153,8 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
     if not detector.is_trained:
         raise HTTPException(status_code=400, detail="Model not trained. Run /ml/train first.")
 
-    risk_level  = map_risk_level(float(txn.anomaly_score))
-    shap_values = get_shap_for_transaction(transaction_id, detector.model, detector.original_df)
+    risk_level   = map_risk_level(float(txn.anomaly_score))
+    shap_values  = get_shap_for_transaction(transaction_id, detector.model, detector.original_df)
     shap_signals = [{"feature": k, "impact": v} for k, v in shap_values.items()]
 
     recent_decisions = (
@@ -147,11 +170,11 @@ def investigate_transaction(transaction_id: str, db: Session = Depends(get_db)):
     result = investigate(
         txn={
             "transaction_id": txn.transaction_id,
-            "amount": txn.amount,
-            "vendor": txn.vendor,
-            "department": txn.department,
-            "anomaly_score": txn.anomaly_score,
-            "is_anomaly": txn.is_anomaly
+            "amount":         txn.amount,
+            "vendor":         txn.vendor,
+            "department":     txn.department,
+            "anomaly_score":  txn.anomaly_score,
+            "is_anomaly":     txn.is_anomaly
         },
         shap=shap_values,
         memory=memory
@@ -195,18 +218,11 @@ def get_agent_decisions(transaction_id: str, db: Session = Depends(get_db)):
 @router.post("/agent/auto-monitor")
 def auto_monitor(
     db: Session = Depends(get_db),
-    limit: int = Query(default=15, description="Max transactions to process per run")
+    limit: int = Query(default=15, description="Max transactions per run. Call multiple times to process all.")
 ):
-    """
-    Investigates anomalous transactions in batches.
-    Skips already-investigated ones automatically.
-    Call multiple times to process all — each call picks up where the last left off.
-    Default limit=15 keeps well within Render's 30s request timeout.
-    """
     if not detector.is_trained:
         raise HTTPException(status_code=400, detail="Model not trained. Run /ml/train first.")
 
-    # Only fetch unscored anomalies that haven't been investigated yet
     all_anomalies = db.query(Transaction).filter(Transaction.is_anomaly == 1).all()
 
     pending = []
@@ -219,14 +235,10 @@ def auto_monitor(
         if not exists:
             pending.append(txn)
 
-    # Total remaining before this run
     total_remaining = len(pending)
-
-    # Process only up to `limit` per call
-    to_process = pending[:limit]
-
-    results = []
-    errors  = []
+    to_process      = pending[:limit]
+    results         = []
+    errors          = []
 
     for txn in to_process:
         try:
@@ -274,7 +286,7 @@ def auto_monitor(
             db.commit()
             results.append(txn.transaction_id)
 
-            time.sleep(1.5)  # stay under Groq 6000 TPM free tier
+            time.sleep(1.5)
 
         except Exception as e:
             errors.append({"transaction_id": txn.transaction_id, "error": str(e)})
@@ -305,9 +317,9 @@ def submit_feedback(transaction_id: str, payload: dict, db: Session = Depends(ge
     ).first()
     if not decision:
         raise HTTPException(404, "Decision not found")
-    decision.feedback      = payload["verdict"]
+    decision.feedback       = payload["verdict"]
     decision.feedback_notes = payload.get("notes")
-    decision.feedback_at   = datetime.utcnow()
+    decision.feedback_at    = datetime.utcnow()
     db.commit()
     return {"status": "feedback recorded"}
 
